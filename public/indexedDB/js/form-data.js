@@ -10,9 +10,9 @@ btn.addEventListener('click', (e) => {
   e.preventDefault();
 
   // show the form values
-  // const formData = new FormData(form);
-  // const values = [...formData.entries()];
-  // console.log(values);
+  const formData = new FormData(form);
+  const values = [...formData.entries()];
+  console.log(values);
 
   subscribe();
 });
