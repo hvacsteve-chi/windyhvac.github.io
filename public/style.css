@@ -50,7 +50,7 @@ header .header-wrapper {
   width: calc(100% - 2px);
   display: grid;
   place-items: center;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns:auto 1fr auto;
   background: rgba(177, 176, 176, 0.76);
   border: 1px solid white;
 }
@@ -76,7 +76,7 @@ header .header-wrapper nav {
 }
 header .header-wrapper nav:is(:hover, :focus) {
   background: hsla(0, 0%, 100%, 0.46);
-  transform: all 200ms ease-in-out;
+  transform: all 100ms ease-in-out;
 }
 header .header-wrapper h1 {
   font-size: calc(2.8rem + 0.18vw);
@@ -89,7 +89,7 @@ main {
 main .main-wrapper {
   margin: auto;
   height: calc(100% - 2px);
-  width: calc(100% - px);
+  width: calc(100% - 2px);
   display: grid;
   place-items: center;
   background: rgba(119, 166, 182, 0.76);
