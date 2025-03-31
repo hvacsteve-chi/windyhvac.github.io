@@ -66,49 +66,64 @@
 
 <style>
 
-*{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-text-size-adjust:100%;-moz-text-size-adjust: 100%;text-size-adjust:100%;}
-
+*{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-text-size-adjust:100%;
+	-moz-text-size-adjust: 100%;
+	text-size-adjust:100%;
+}
+html,body{
+  font-family:"Roboto",monospace,sans-serif;
 </style>
-
-
-		<link rel="stylesheet" href="style.css" as="style" />
-
-  </head>
-  <body>
-
-		<header>
-      <div class="header-wrapper">
-
-        <nav>
-          <i class="material-symbols-outlined">menu</i>
-        </nav>
-
-        <h1>LOGO</h1>
-
-        <span id="headerHeight"></span>
-
-      </div>
-		</header>
-
-    <main>
-      <div class="main-wrapper">
-
-        <span id="time-now"></span>
-
-        <span id="mainHeight"></span>
-
-      </div>
-		</main>
-
-		<footer>
-      <div class="footer-wrapper">
-
-        <span id="footerHeight"></span>
-
-      </div>
-    </footer>
-
-    <script type="module" src="bundle.js"></script>
-
+    
+<link rel="stylesheet" href="style.css" as="style" />
+    
+</head>  
+  
+<body>
+  
+  <!-- Header -->
+	<header>
+    <div class="header-wrapper">
+      <!-- Main Nav -->
+		  <nav>
+			  <i class="material-symbols-outlined">menu</i>
+      </nav>
+      <!-- Site H1 [name/logo] -->
+      <h1>
+			  LOGO
+      </h1>
+      +
+      <span id="headerHeight"></span>
+      
+    </div>
+	</header>
+  
+  <!-- Main -->
+  <main>
+    <div class="main-wrapper">
+      
+		  <span id="time-now"></span>
+		  <span id="mainHeight"></span>
+      
+    </div>
+	</main>
+  
+  <!-- Footer -->
+	<footer>
+    <div class="footer-wrapper">
+      
+      <span id="footerHeight"></span>
+      
+    </div>
+  </footer>
+  
+  <!-- Scripts -->
+  <script type="module" src="bundle.js"></script>
+  
   </body>
 </html>
