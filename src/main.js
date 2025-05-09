@@ -7,4 +7,5 @@ import sizes from './sizes.js';
 
 console.log('if you have sourcemaps enabled in your devtools, click on main.js:5 -->');
 
+sizes();
 update();
