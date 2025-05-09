@@ -23,7 +23,8 @@ var footerSpan = document.querySelector("#footerHeight");
 console.log(headerSpan, mainSpan, footerSpan);
 
 export default function sizes() {
-  headerSpan.innerText = hh + "px";
-  mainSpan.innerText = mh + "px";
-  footerSpan.innerText = fh + "px";
+  headerSpan.innerHTML = 'hh + "px"';
+  mainSpan.innerHTML = 'mh + "px"';
+  footerSpan.innerHTML = 'fh + "px"';
+  setTimeout(sizes, 1000);
 };
