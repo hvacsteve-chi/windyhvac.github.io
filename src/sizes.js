@@ -1,6 +1,6 @@
 var docEl = document.documentElement;
 var pageWidth = docEl.clientWidth;
-console.log(pageWidth + "px wide");
+alert(pageWidth + " px wide");
 
 var h = document.querySelector("header");
 var m = document.querySelector("main");
