@@ -1,4 +1,5 @@
 import format from 'date-fns/format';
+import sizes from './sizes.js';
 
 var span = document.querySelector('#time-now');
 
