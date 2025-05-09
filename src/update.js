@@ -1,10 +1,9 @@
 import format from 'date-fns/format';
-import sizes from './sizes.js';
 
 var span = document.querySelector('#time-now');
 var spansize = document.querySelector('#mainHeight');
 
-export function sizes(){
+function sizes(){
     spansize.textContent = document.body.main.clientWidth();
 };
     
