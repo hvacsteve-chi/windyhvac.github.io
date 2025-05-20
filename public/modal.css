@@ -1,0 +1,11 @@
+/* Hidden by default */
+.modal {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Visible when targeted */
+.modal:target {
+  opacity: 1;
+  pointer-events: auto;
+}
