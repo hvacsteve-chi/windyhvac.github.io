@@ -41,7 +41,7 @@ header {
   height: 100%;
   min-height: 65px;
   max-height: 65px;
-  background: pink;
+  background: rgba(0,0,0,.92);
   color: black;
 }
 header .header-wrapper {
