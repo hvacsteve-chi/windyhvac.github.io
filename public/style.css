@@ -81,6 +81,10 @@ header .header-wrapper nav:is(:hover, :focus) {
 header .header-wrapper h1 {
   font-size: calc(2.8rem + 0.18vw);
 }
+header .header-wrapper span {
+  font-size: calc(2.4rem + 0.18vw);
+  font-weight:400;
+}
 main {
   height: 100%;
   background: lightblue;
