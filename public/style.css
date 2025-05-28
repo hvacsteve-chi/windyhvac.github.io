@@ -52,7 +52,7 @@ header .header-wrapper {
   place-items: center;
   grid-template-columns:auto 1fr auto;
   background: rgba(177, 176, 176, 0.76);
-  border: 1px solid white;
+  border: 1px solid transparent;
 }
 header .header-wrapper nav {
   margin: 0 6px 0 4px;
