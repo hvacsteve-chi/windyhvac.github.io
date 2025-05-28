@@ -41,7 +41,7 @@ header {
   height: 100%;
   min-height: 65px;
   max-height: 65px;
-  background: blue;
+  background: transparent;
   color: black;
 }
 header .header-wrapper {
